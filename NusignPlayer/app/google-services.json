@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "364407703581",
+    "firebase_url": "https://myclaudvideoaudiopalayer.firebaseio.com",
+    "project_id": "myclaudvideoaudiopalayer",
+    "storage_bucket": "myclaudvideoaudiopalayer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364407703581:android:fb0ea3620251380b",
+        "android_client_info": {
+          "package_name": "com.NuSignSignagePlayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364407703581-4qal6p09pa0iepchtd5m0p7d3b7ev17m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAImlQYMgrFo-xHpj9KC_bBZfu0M8peUuk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

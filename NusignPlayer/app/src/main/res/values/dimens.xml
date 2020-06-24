@@ -1,0 +1,79 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+
+    <dimen name="txtlarge">28sp</dimen>
+    <dimen name="txtmedium">20sp</dimen>
+    <dimen name="txtsmall">18sp</dimen>
+    <dimen name="margintop">20dp</dimen>
+    <dimen name="generic_img_height">50dp</dimen>
+    <dimen name="progressbar_height">58dp</dimen>
+    <dimen name="toolbar_height">170dp</dimen>
+
+
+    <!--login activity-->
+    <dimen name = "login_logo">30dp</dimen>
+
+    <!--Edit text login Activity-->
+    <dimen name = "username_margin_linear"> 20dp</dimen>
+    <dimen name = "username_margin_bottom">5dp</dimen>
+
+    <dimen name = "token_margin_linear">20dp</dimen>
+    <dimen name = "token_margin_bottom">10dp</dimen>
+
+    <dimen name = "dealer_margin_linear">20dp</dimen>
+    <dimen name = "dealer_margin_bottom">10dp</dimen>
+
+    <!--Login Activity buttons-->
+    <dimen name = "button_margin_linearlayout">40dp</dimen>
+    <dimen name = "cancel_margin_right">30dp</dimen>
+    <dimen name = "submit_margin_left">2dp</dimen>
+
+    <dimen name = "text_size_login">20sp</dimen>
+
+    <dimen name = "sub_linear_loginMargin">160dp</dimen>
+
+    <!--splash screen width-->
+    <dimen name = "logo_width">317dp</dimen>
+
+    <!--PlayerActivity-->
+    <dimen name = "ad_textView_padding_left">10dp</dimen>
+    <dimen name = "ad_textView_padding_right">6dp</dimen>
+    <dimen name = "ad_textView_padding_top">6dp</dimen>
+
+    <dimen name="player_txtmedium">20sp</dimen>
+    <dimen name="player_txtsmall">18sp</dimen>
+
+    <dimen name="textview_playlist_paddingleft">10dp</dimen>
+    <dimen name="textview_playlist_paddingtop">5dp</dimen>
+    <dimen name="textview_playlist_paddingbottom">5dp</dimen>
+
+    <dimen name="textview_song_paddingleft">10dp</dimen>
+    <dimen name="textview_song_paddingtop">5dp</dimen>
+    <dimen name="textview_song_paddingbottom">5dp</dimen>
+
+    <dimen name ="listview_dividerHeight">1dp</dimen>
+
+    <dimen name="ads_height">370dp</dimen>
+    <dimen name="stream_img_height">110dp</dimen>
+
+    <!--OnLine Activity-->
+    <dimen name="songimghei_wid">68dp</dimen>
+    <dimen name="rightarrowhei_wid">43dp</dimen>
+
+    <!--Homeactivity-->
+    <dimen name="homemarginbottom">125dp</dimen>
+
+    <!--listview textSize-->
+    <dimen name = "textview_width">269dp</dimen>
+    <dimen name = "textview_padding">10dp</dimen>
+    <dimen name = "list_textSize">20sp</dimen>
+    <dimen name="txt_small">18sp</dimen>
+    <dimen name="margintopbar">5dp</dimen>
+    <dimen name="margin_navbar_header">40dp</dimen>
+
+</resources>

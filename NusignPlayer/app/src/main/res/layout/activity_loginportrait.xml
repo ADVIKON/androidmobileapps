@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.github.rongi.rotate_layout.layout.RotateLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:angle="90">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageLogin"
+                android:layout_width="198dp"
+                android:layout_height="198dp"
+                android:layout_weight="0.30"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/login_icon_margin_bottom"
+                android:src="@drawable/logonusign" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.10"/>
+
+            <EditText
+                android:layout_marginLeft="@dimen/margin_left_for_tv"
+                android:layout_marginRight="@dimen/margin_right_for_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:background="@drawable/edittext_back"
+                android:drawableLeft="@drawable/user_name"
+                android:hint="User Name"
+                android:textColorHint="@color/black"
+                android:id="@+id/edit_username"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.10"/>
+
+
+            <EditText
+                android:layout_marginLeft="@dimen/margin_left_for_tv"
+                android:layout_marginRight="@dimen/margin_right_for_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_back"
+                android:layout_weight="0.05"
+                android:drawableLeft="@drawable/token_no"
+                android:hint="Token No"
+                android:id="@+id/edit_tokenNo"
+                android:singleLine="true"
+                android:inputType="text"
+                android:textColorHint="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.15">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/btn_Cancel"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/cancel"
+                    android:layout_weight="0.15"/>
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:id="@+id/btn_Submit"
+                    android:background="@drawable/submit"
+                    android:layout_weight="0.15"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.github.rongi.rotate_layout.layout.RotateLayout>
+
+</LinearLayout>

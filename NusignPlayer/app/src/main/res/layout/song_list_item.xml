@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/song_icon"
+        android:id="@+id/music_icon"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/songtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/size_8_dp"
+        android:paddingTop="@dimen/size_7_dp"
+        android:singleLine="true"
+        android:text="SongSongSongSong"
+        android:textSize="@dimen/size_17_sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/music_icon" />
+    <TextView
+        android:id="@+id/songArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:text="SongSongSongSong"
+        android:layout_toRightOf="@+id/music_icon"
+        android:layout_below="@id/songtitle"
+        android:textSize="@dimen/size_17_sp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/songArtist"
+        android:layout_height="1dp"
+        android:background="@color/player_color">
+
+    </View><!--txt_small-->
+</RelativeLayout>

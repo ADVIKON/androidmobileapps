@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context="com.NuSignSignagePlayer.activities.LoginActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".38"
+        android:gravity="center"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageLogin"
+            android:layout_width="198dp"
+            android:layout_height="198dp"
+            android:layout_marginBottom="@dimen/login_icon_margin_bottom"
+            android:src="@drawable/logonusign" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        >
+        <EditText
+            android:layout_marginLeft="@dimen/margin_left_for_tv"
+            android:layout_marginRight="@dimen/margin_right_for_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:drawableLeft="@drawable/user_name"
+            android:hint="User Name"
+            android:textColorHint="@color/black"
+            android:id="@+id/edit_username"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".14"
+        >
+
+        <EditText
+            android:layout_marginLeft="@dimen/margin_left_for_tv"
+            android:layout_marginRight="@dimen/margin_right_for_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:drawableLeft="@drawable/token_no"
+            android:hint="Token No"
+            android:id="@+id/edit_tokenNo"
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".13"
+        android:visibility="gone"
+        >
+        <EditText
+            android:layout_marginLeft="@dimen/margin_left_for_tv"
+            android:layout_marginRight="@dimen/margin_right_for_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_back"
+            android:drawableLeft="@drawable/dealer_code"
+            android:hint="Dealer Code"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:id="@+id/edit_dealerCode"
+            android:textColorHint="@color/black"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".21"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_marginLeft="@dimen/margin_left_for_tv"
+            android:layout_marginTop="@dimen/login_screen_button_margentop"
+            android:id="@+id/btn_Cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/cancel"
+            android:textColor="#ffffff"
+            android:layout_marginRight="@dimen/cancel_margin_right"
+            />
+
+        <Button
+            android:layout_marginRight="@dimen/margin_right_for_tv"
+            android:layout_marginTop="@dimen/login_screen_button_margentop"
+            android:id="@+id/btn_Submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/submit"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="@dimen/submit_margin_left"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

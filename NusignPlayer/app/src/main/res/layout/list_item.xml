@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/grid_item_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector"
+        android:focusable="false"
+        android:gravity="left|center_vertical|center_horizontal"
+        android:padding="@dimen/size_10_dp"
+        android:text=""
+        android:textSize="@dimen/size_21_sp" />
+</LinearLayout>
