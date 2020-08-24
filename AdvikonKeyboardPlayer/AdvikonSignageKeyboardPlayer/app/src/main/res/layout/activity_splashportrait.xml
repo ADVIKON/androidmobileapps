@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/main_top_status_bar_color"
+    tools:context="com.advikonsignagekeyboardplayer.com.advikonsignagekeyboardplayer.activities.Splash_Activity">
+
+
+    <com.github.rongi.rotate_layout.layout.RotateLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:angle="90">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.35">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imgID"
+                android:layout_width="190dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.28"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logonusign" />
+
+
+            <TextView
+                android:id="@+id/txtTokenId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.10"
+                android:text="New Text"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <com.github.rahatarmanahmed.cpv.CircularProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/progress_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.20"
+                app:cpv_animAutostart="true"
+                app:cpv_color="@color/white"
+                app:cpv_indeterminate="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_weight="0.05"
+                android:layout_gravity="center"
+                android:id="@+id/txtCurrentProgress"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.10">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </com.github.rongi.rotate_layout.layout.RotateLayout>
+
+</LinearLayout>

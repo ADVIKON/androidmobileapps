@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.rongi.rotate_layout.layout.RotateLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mp3rotate"
+        app:angle="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/songtitle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.10"
+                android:gravity="center_vertical"
+                android:text="Song"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:textSize="35dp"
+                android:visibility="visible" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.30">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/imgID"
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.20"
+                android:scaleType="fitCenter"
+                android:src="@drawable/jj"
+                android:padding="15dp"
+                android:visibility="visible"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.30">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/Artist"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.10"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:text="Artist"
+                android:textAlignment="center"
+                android:textSize="35dp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+    </com.github.rongi.rotate_layout.layout.RotateLayout>
+
+</LinearLayout>

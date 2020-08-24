@@ -1,0 +1,159 @@
+<resources>
+    <!--dimens-values-7'' - 620 * 1280  -->
+
+    <dimen name="txtlarge">30sp</dimen>
+    <dimen name="txtmedium">20sp</dimen>
+    <dimen name="txtsmall">24sp</dimen>
+    <dimen name="margintop">25dp</dimen>
+    <dimen name="generic_img_height">50dp</dimen>
+    <dimen name="progressbar_height">58dp</dimen>
+    <dimen name="toolbar_height">145dp</dimen>
+
+    <!--  Margin set to display in tv -->
+
+    <dimen name="margin_left_for_tv">2dp</dimen>
+    <dimen name="margin_right_for_tv">2dp</dimen>
+
+    <dimen name="login_screen_button_margentop">23dp</dimen>
+    <dimen name="login_icon_margin_bottom">10dp</dimen>
+
+    <!--login activity-->
+    <dimen name = "login_logo">30dp</dimen>
+
+    <!--Edit text login Activity-->
+    <dimen name = "username_margin_linear"> 20dp</dimen>
+    <dimen name = "username_margin_bottom">5dp</dimen>
+
+    <dimen name = "token_margin_linear">20dp</dimen>
+    <dimen name = "token_margin_bottom">10dp</dimen>
+
+    <dimen name = "dealer_margin_linear">20dp</dimen>
+    <dimen name = "dealer_margin_bottom">10dp</dimen>
+
+    <!--Login Activity buttons-->
+    <dimen name = "button_margin_linearlayout">40dp</dimen>
+    <dimen name = "cancel_margin_right">30dp</dimen>
+    <dimen name = "submit_margin_left">2dp</dimen>
+
+    <dimen name = "text_size_login">20sp</dimen>
+
+    <dimen name = "sub_linear_loginMargin">160dp</dimen>
+
+    <!--splash screen width-->
+    <dimen name = "logo_width">317dp</dimen>
+
+    <!--PlayerActivity-->
+    <dimen name = "ad_textView_padding_left">10dp</dimen>
+    <dimen name = "ad_textView_padding_right">6dp</dimen>
+    <dimen name = "ad_textView_padding_top">6dp</dimen>
+
+    <dimen name="player_txtmedium">20sp</dimen>
+    <dimen name="player_txtsmall">18sp</dimen>
+
+    <dimen name="textview_playlist_paddingleft">10dp</dimen>
+    <dimen name="textview_playlist_paddingtop">5dp</dimen>
+    <dimen name="textview_playlist_paddingbottom">5dp</dimen>
+
+    <dimen name="textview_song_paddingleft">10dp</dimen>
+    <dimen name="textview_song_paddingtop">5dp</dimen>
+    <dimen name="textview_song_paddingbottom">5dp</dimen>
+
+    <dimen name ="listview_dividerHeight">1dp</dimen>
+
+    <dimen name="ads_height">370dp</dimen>
+    <dimen name="stream_img_height">110dp</dimen>
+
+    <!--OnLine Activity-->
+    <dimen name="songimghei_wid">68dp</dimen>
+    <dimen name="rightarrowhei_wid">43dp</dimen>
+
+    <!--Homeactivity-->
+    <dimen name="homemarginbottom">125dp</dimen>
+
+    <!--listview textSize-->
+    <dimen name = "textview_width">269dp</dimen>
+    <dimen name = "textview_padding">10dp</dimen>
+    <dimen name = "list_textSize">20sp</dimen>
+    <dimen name="txt_small">18sp</dimen>
+
+
+    <dimen name="size_400dp">400dp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_130dp">130dp</dimen>
+    <dimen name="size_5dp">5dp</dimen>
+    <dimen name="size_300dp">300dp</dimen>
+
+
+    <!-- Values-sw600dp  Dimens for 7'' Tablets-->
+    <dimen name="size_3_dp">7dp</dimen>
+    <dimen name="size_4_dp">8dp</dimen>
+    <dimen name="size_5_dp">9dp</dimen>
+    <dimen name="size_6_dp">10dp</dimen>
+    <dimen name="size_7_dp">11dp</dimen>
+    <dimen name="size_8_dp">13dp</dimen>
+    <dimen name="size_10_dp">18dp</dimen>
+    <dimen name="size_11_sp">20sp</dimen>
+    <dimen name="size_12_dp">21dp</dimen>
+    <dimen name="size_12_sp">15sp</dimen>
+    <dimen name="size_13_dp">22dp</dimen>
+    <dimen name="size_13_sp">22sp</dimen>
+    <dimen name="size_14_dp">23dp</dimen>
+    <dimen name="size_14_sp">23sp</dimen>
+    <dimen name="size_15_dp">24dp</dimen>
+    <dimen name="size_15_sp">24sp</dimen>
+    <dimen name="size_16_dp">25dp</dimen>
+    <dimen name="size_16_sp">22sp</dimen>
+    <dimen name="size_17_sp">20sp</dimen>
+    <dimen name="size_17_dp">27dp</dimen>
+    <dimen name="size_18_sp">21sp</dimen>
+    <dimen name="size_18_dp">25dp</dimen>
+    <dimen name="size_19_dp">28dp</dimen>
+    <dimen name="size_19_sp">25sp</dimen>
+    <dimen name="size_20_dp">29dp</dimen>
+    <dimen name="size_20_sp">25sp</dimen>
+    <dimen name="size_21_sp">23sp</dimen>
+    <dimen name="size_22_sp">27sp</dimen>
+    <dimen name="size_22_dp">29dp</dimen>
+    <dimen name="size_23_sp">28sp</dimen>
+    <dimen name="size_24_sp">29sp</dimen>
+    <dimen name="size_24_dp">29dp</dimen>
+    <dimen name="size_25_dp">32dp</dimen>
+    <dimen name="size_27_sp">32sp</dimen>
+    <dimen name="size_28_dp">38dp</dimen>
+    <dimen name="size_28_sp">33sp</dimen>
+    <dimen name="size_30_dp">55dp</dimen>
+    <dimen name="size_30_sp">35sp</dimen>
+    <dimen name="size_32_dp">45dp</dimen>
+    <dimen name="size_32_sp">38sp</dimen>
+    <dimen name="size_35_dp">48dp</dimen>
+    <dimen name="size_35_sp">42sp</dimen>
+    <dimen name="size_37_sp">44sp</dimen>
+    <dimen name="size_40_dp">52dp</dimen>
+    <dimen name="size_40_sp">46sp</dimen>
+    <dimen name="size_43_dp">57dp</dimen>
+    <dimen name="size_45_dp">60dp</dimen>
+    <dimen name="size_45_sp">50sp</dimen>
+    <dimen name="size_48_dp">62dp</dimen>
+    <dimen name="size_50_dp">67dp</dimen>
+    <dimen name="size_52_dp">68dp</dimen>
+    <dimen name="size_55_dp">71dp</dimen>
+    <dimen name="size_57_dp">73dp</dimen>
+    <dimen name="size_60_dp">75dp</dimen>
+    <dimen name="size_70_dp">86dp</dimen>
+    <dimen name="size_72_dp">88dp</dimen>
+    <dimen name="size_80_dp">100dp</dimen>
+    <dimen name="size_90_dp">120dp</dimen>
+    <dimen name="size_95_dp">130dp</dimen>
+    <dimen name="size_100_dp">135dp</dimen>
+    <dimen name="size_110_dp">140dp</dimen>
+    <dimen name="size_112_dp">143dp</dimen>
+    <dimen name="size_120_dp">170dp</dimen>
+    <dimen name="size_150_dp">150dp</dimen>
+    <dimen name="size_160_dp">190dp</dimen>
+    <dimen name="size_200_dp">260dp</dimen>
+    <dimen name="size_250_dp">305dp</dimen>
+    <dimen name="size_310_dp">350dp</dimen>
+    <dimen name="size_t90_dp">200dp</dimen>
+
+</resources>

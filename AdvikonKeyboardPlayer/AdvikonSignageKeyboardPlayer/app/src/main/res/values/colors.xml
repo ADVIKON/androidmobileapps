@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="themecolor">#3F51B5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="greynormal">#eeeeee</color>
+    <color name="greydark">#999999</color>
+
+
+    <!--ToolBar color-->
+    <color name="_status_bar">#0a6691</color>
+    <color name="main_top_status_bar_color">#0f7db0</color>
+    <color name="player_color">#4cbde7</color>
+    <color name="list_selector_color">#c2c2c2</color>
+
+    <drawable name="selected">#98daf2</drawable>
+    <drawable name="selected1">#FF4081</drawable>
+    <color name="player_background">#0f7db0</color>
+    <color name="divider_nav_bar">#d7d7d7</color>
+    <color name="navigation_menu_background">#0a6691</color>
+</resources>

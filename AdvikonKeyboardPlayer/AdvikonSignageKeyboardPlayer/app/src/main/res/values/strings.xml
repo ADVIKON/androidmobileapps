@@ -1,0 +1,40 @@
+<resources>
+    <!--AppName-->
+    <string name="app_name">AdvikonSignageKeyboardPlayer</string>
+
+    <!--Check Internet Connection Message-->
+    <string name="isinternet">Internet Connection Error\nPlease connect to working Internet connection.</string>
+
+    <!--Cancel the online Music Player-->
+    <string name="canceltitle">Are you sure to exit the music player?</string>
+    <string name="canceltitleoffline">Are you sure to exit music player?</string>
+    <string name="want_to_start_Playlist">Click continue to play current playlist\nClick ok to play new playlist!</string>
+    <string name="want_to_start_song">Click Play Now to play current song \nClick Play Next to play after current song!</string>
+    <string name="alert_dialog_title">New Playlist Time</string>
+    <string name="alert_dialog_OnplaylistClick_title">Start New PlayList?</string>
+    <string name="alert_dialog_OnSongClick_title">Want to Play Song?</string>
+    <string name="cancelmessage">"Click yes to exit!</string>
+    <string name="cancelyes">Yes</string>
+    <string name="cancelno">No</string>
+    <string name="continueplaylist">Continue</string>
+    <string name="okplaylist">Ok</string>
+    <string name="play_now">Play Now</string>
+    <string name="play_next">Play Next</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="main_menu_power_title">Power Off</string>
+    <string name="nav_bar_header_player_id">Player ID</string>
+    <string name="nav_bar_header_playlist_label">Playlist</string>
+    <string name="century_font">century-gothic.ttf</string>
+    <string name="century_font_bold">century-gothic-bold.ttf</string>
+    <string name="login_internet_not_connected">Internet Connection Error</string>
+    <string name="login_connect_to_internet">Please connect to working Internet connection</string>
+    <string name="login_enter_username">Please Enter the User Name.</string>
+    <string name="login_enter_token">Please Enter the Token No.</string>
+    <string name="notification_catalog_downloaded">Video downloaded</string>
+    <string name="notification_no_memory">No memory left</string>
+    <string name="mp4_file_extension">.mp4</string>
+    <!--<string name="alert_dialog_title">New Playlist Time</string>-->
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.advikonsignagekeyboardplayer.com.advikonsignagekeyboardplayer.activities.HomeActivity"
+    android:fitsSystemWindows="true"
+    android:background="@color/_status_bar"
+    android:id="@+id/mainContainer">
+
+    <com.github.rongi.rotate_layout.layout.RotateLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rotateimg"
+        app:angle="0">
+
+        <ImageView
+            android:id="@+id/previmg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:visibility="visible"/>
+    </com.github.rongi.rotate_layout.layout.RotateLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_container"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ListView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewPlaylists"
+            android:layout_alignParentStart="true"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTokenId"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="Token ID"/>
+
+
+        <ProgressBar
+            android:id="@+id/circularProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/circular_progress_shape"
+            android:layout_alignTop="@+id/imgID"
+            android:layout_below="@+id/imgID"
+            android:layout_alignLeft="@+id/imgID"
+            android:layout_toRightOf="@+id/imgID">
+
+        </ProgressBar>
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewSongs"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"/>
+
+    <com.github.rongi.rotate_layout.layout.RotateLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rotatevideo"
+        app:angle="0">
+
+        <com.advikonsignagekeyboardplayer.custom_views.MyClaudVideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/video_view"
+
+            />
+    </com.github.rongi.rotate_layout.layout.RotateLayout>
+
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:id="@+id/marker"
+        android:paddingTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/red"
+        android:layout_marginEnd="0dp"
+        android:visibility="visible"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWritingFile"
+        android:layout_above="@+id/relative_container"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <include
+        layout="@layout/layoutmp3"
+        android:id="@+id/mp3layout"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
+

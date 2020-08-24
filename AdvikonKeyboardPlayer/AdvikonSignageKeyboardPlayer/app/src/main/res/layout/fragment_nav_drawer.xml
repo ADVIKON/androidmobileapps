@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_menu_background"
+    android:clickable="true">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/margin_navbar_header"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_bar_header_player_id"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:maxLines="2"
+            android:id="@+id/playerID_static"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgProfile"
+            android:layout_marginLeft="20dp"
+            android:layout_toEndOf="@+id/imgProfile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12345"
+            android:id="@+id/playerID"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:maxLines="1"
+            android:layout_below="@+id/playerID_static"
+            android:layout_alignLeft="@+id/playerID_static"
+            android:layout_alignStart="@+id/playerID_static" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logonusign"
+            android:layout_marginLeft="20dp"
+            android:layout_alignBottom="@id/playerID"
+            android:id="@+id/imgProfile" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/player_color"></View>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/playlist_label"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/nav_header_container"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playlist_icon"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/playlist_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_bar_header_playlist_label"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:maxLines="2"
+            android:id="@+id/playlist"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/size_13_dp"
+            android:layout_toRightOf="@+id/playlist_icon"
+            android:layout_toEndOf="@+id/playlist_icon"
+            android:textStyle="bold" />
+
+
+
+        <ImageView
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignParentBottom="true"
+            android:src="@color/player_background"/>
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/lstPlaylist"
+        android:layout_below="@+id/playlist_label"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:divider="@null"
+        />
+
+</RelativeLayout>
